@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="container-center">
+        <div class="containers color">
+          <div class="string-bold">
+            Cüzdan:
+            <span id="balance">0.00 TL</span>
+          </div>
+          <div>
+            <button class="btn add-balance">Para Ekle</button>
+          </div>
+        </div>
+      </header>
+      <section class="container-center">
+        <div class="containers section-con">
+          <div class="string-bold">Ürünler</div>
+          <div>
+            <button class="btn btn-product">Ürün Ekle</button>
+          </div>
+        </div>
+      </section>
+
+      <main class="container-center">
+        <div class="flex-column h color">
+          <div class="first-column">
+            <ul class="list list1">
+              Urun Adi
+              <li class="list-item list-product" id="product-name"></li>
+            </ul>
+            <ul class="list list2">
+              Tutar
+              <li class="list-item list product-sum"></li>
+            </ul>
+            <hr />
+          </div>
+          <div class="second-column">
+            <div>
+              <div>Urun Adi</div>
+              <div>
+                <input type="text" class="product-input-name" />
+              </div>
+            </div>
+
+            <div>
+              <div>Tutar</div>
+              <div>
+                <input type="number" class="input-sum" />
+                <button id="add_products">Ekle</button>
+              </div>
+            </div>
+          </div>
+          <div class="third-column">
+            <div class="string-bold">
+              Toplam Tutar: <span id="total_sum">0.00 TL</span>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer-container">
+        <div class="containers color">
+          <button id="clear_btn" class="btn">Ürünleri Sil</button>
+          <button id="buy_btn" class="btn active">Satın Al</button>
+        </div>
+      </footer>
+      <section class="alert-center alert"></section>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
