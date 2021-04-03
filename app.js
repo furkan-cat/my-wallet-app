@@ -82,7 +82,6 @@ UI.prototype.clearProducts = () => {
     first2.remove();
     first2 = list2.firstElementChild;
   }
-
   totalMoney.innerText = "0.00";
 };
 
@@ -142,7 +141,7 @@ const addMoneyToWallet = () => {
 
 addMoneyToBalance.addEventListener("click", addMoneyToWallet);
 
-const falan = (e) => {
+const addMoneyToWalletKeyCode = (e) => {
   if (e.keyCode === 13) {
     e.preventDefault();
     balance.innerText = Number(balance.innerText) + Number(inputSum.value);
@@ -150,7 +149,7 @@ const falan = (e) => {
     inputSum.value = "";
   }
 };
-document.addEventListener("keyup", falan);
+document.addEventListener("keyup", addMoneyToWalletKeyCode);
 
 // Active and Deactive button
 document
@@ -168,7 +167,7 @@ document
   .getElementById("total_sum")
   .addEventListener("DOMSubtreeModified", function () {
     // Check money. If it is enough, change classes and disable buy button
-    if (balance.innerText < totalMoney.innerText) {
+    if (totalMoney.innerText > balance.innerText) {
       buy.classList.add("deactive");
       buy.classList.remove("active");
       buy.disabled = true;
