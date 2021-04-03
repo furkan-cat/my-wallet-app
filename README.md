@@ -2,4 +2,4 @@
 
 Work in progress...
 
-https://frosty-franklin-820b41.netlify.app
+https://frosty-franklin-my-wallet.netlify.app/
