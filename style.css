@@ -207,7 +207,14 @@ hr {
 
 .active:before {
   content: "";
-  background: linear-gradient(45deg, #d2dae2, #808e9b, #af58bb, #d2dae2);
+  background: linear-gradient(
+    45deg,
+    #293a23,
+    #a0e5b3,
+    #81cf76,
+    #f0d683,
+    #c1df5e
+  );
   position: absolute;
   top: -2px;
   left: -2px;
