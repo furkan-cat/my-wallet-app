@@ -1,11 +1,4 @@
 # my-wallet-app
-
-Work in progress...
-
-https://frosty-franklin-my-wallet.netlify.app/
-
-# -app
-
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -48,7 +41,7 @@ https://frosty-franklin-my-wallet.netlify.app/
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+When you fill the inputs with product name and product value ekle button is triggered to make show them to users on the list. Before you buy some products you should add money your wallet. Otherwise you recieve an a error code. Also when you try to dont fill all required inputs to add product to list :) Also there is a button conditions with animation when you have enough money or not on your wallet. Keep enjoying guys! At that time i've iproved my skills...!
 
 [Project-Link](https://frosty-franklin-my-wallet.netlify.app/)
 
