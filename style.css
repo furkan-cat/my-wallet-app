@@ -17,7 +17,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: var(--wrapper-color);
+  background-image: linear-gradient(#5db388, #97e1f0);
 }
 
 .wrapper {
@@ -289,14 +289,6 @@ hr {
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
-
-/* .deactive:active {
-   color: #000
-}
-
-.deactive:active:after {
-   background: transparent;
-} */
 
 .deactive:hover:before {
   opacity: 1;
